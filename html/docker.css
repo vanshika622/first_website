@@ -99,6 +99,7 @@ background: linear-gradient(302deg, rgba(222,230,233,1) 2%, rgba(18,205,226,1) 4
  }
  .card button{
      padding: 5px;
+     /* margin-top: 80px; */
      margin-bottom: 10px;
      border-radius: 8px;
      border: none;
@@ -113,7 +114,14 @@ background: linear-gradient(302deg, rgba(222,230,233,1) 2%, rgba(18,205,226,1) 4
  #card4 button{
     margin-top: 45px;
  }
+ #card5 .radio{
+     width: 20%;
 
+ }
+ #card5 label{
+     color: white;
+     font-family:'Baloo Bhaina 2', cursive;
+ }
  #card1 .lower button{
      width: 70%;
  }
@@ -150,6 +158,9 @@ background: linear-gradient(302deg, rgba(222,230,233,1) 2%, rgba(18,205,226,1) 4
       padding-bottom: 30px;
      
  }
+ #card6 button{
+     width: 80%;
+ }
  #card7 p{
     font-size: 20px;
     padding-top: 50px;
@@ -163,4 +174,12 @@ background: linear-gradient(302deg, rgba(222,230,233,1) 2%, rgba(18,205,226,1) 4
     
   -webkit-transform: rotateY(1turn);
           transform: rotateY(1turn);
+        }
+        
+
+        @media screen and(max-width:790px){
+            .container{
+            width: 500%;
+            height: 500%;
+            }
         }

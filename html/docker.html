@@ -47,7 +47,7 @@
             <div class="card" id="card2">
                 <p>Pull Image From Docker Hub</p>
                 <input type="text" Placeholder="Enter Image Name" name="" class="input">
-                <input type="text" Placeholder="Enter Image Tag" name="Tag" class="input">
+                <input type="text" Placeholder="Enter Image Tag" name="Tag" class="input" id="mytext" onfocus="myFunction()">
                 <button><a href="#">Pull Image</a></button>
             </div>
             <div class="card" id="card3">
@@ -71,10 +71,10 @@
                 <p>Start/Stop Conatiner</p>
                 <input type="text" placeholder="Enter the Conatiner Name" name="" class="input">
                
-                <input type="radio" name="choice" value="Start" >
+                <input type="radio" name="choice" value="Start" class="radio">
                 <label for="male" >Start</label><br>
-                <input type="radio" name="choice" value="Stop">
-                <label for="male">Start</label><br>
+                <input type="radio" name="choice" value="Stop"class="radio">
+                <label for="male">Stop</label><br>
                 <button><a href="#">Start</a></button>
 
                 
@@ -96,6 +96,9 @@
         </div>
 
     </div>
+
+
+    
 </body>
 
 </html>
